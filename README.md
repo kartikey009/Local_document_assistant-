@@ -30,44 +30,4 @@ Welcome to **Local PDF Chatbot**, a local Retrieval-Augmented Generation (RAG) s
 
 The system follows a Retrieval-Augmented Generation (RAG) pipeline. Uploaded documents are processed locally, converted into embeddings, stored in a persistent FAISS index, and retrieved when a user asks a question.
 
-```text
-PDF upload
-
-    |
-
-    v
-
-Text extraction and chunking
-
-    |
-
-    v
-
-Ollama nomic-embed-text
-
-    |
-
-    v
-
-Persistent FAISS index
-
-    |
-
-    v
-
-Question embedding and similarity search
-
-    |
-
-    v
-
-Retrieved passages
-
-    |
-
-    v
-
-Ollama TinyLlama response
-```
-
 ![rag-pipeline-architecture](./rag-pipeline-architecture.png)
