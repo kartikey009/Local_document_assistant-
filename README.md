@@ -42,6 +42,5 @@ Retrieved passages
     |
     v
 Ollama tinyllama response
-```text
 
 ![RAG Pipeline Architecture](./rag-pipeline-architecture.png)
