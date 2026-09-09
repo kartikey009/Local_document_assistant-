@@ -2,6 +2,8 @@
 
 Welcome to **Local PDF Chatbot**, a local Retrieval-Augmented Generation (RAG) system with a FAISS index and native Ollama for embeddings and generation.
 
+![chatbot](./images/chatbot.png)
+
 ### 🌟 Key Features:
 
 - **Privacy-Friendly Document Search:** Search through personal documents without uploading them to the cloud.
